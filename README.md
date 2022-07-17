@@ -1,0 +1,1 @@
+# anycloud-template-s3-static-site
