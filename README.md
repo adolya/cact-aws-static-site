@@ -1,1 +1,3 @@
-# anycloud-template-s3-static-site
+# Cloud as Code Templates
+
+## AWS Static site

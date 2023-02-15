@@ -1,9 +1,16 @@
+# IDE
+.vscode
+.idea
+
 # Local .terraform directories
 **/.terraform/*
 
 # .tfstate files
 *.tfstate
 *.tfstate.*
+
+# Terraform lock files
+*.lock.hcl
 
 # Crash log files
 crash.log
@@ -13,6 +20,8 @@ crash.log
 # version control.
 #
 # example.tfvars
+terraform.tfvars
+terraform.plan
 
 # Ignore override files as they are usually used to override resources locally and so
 # are not checked in
