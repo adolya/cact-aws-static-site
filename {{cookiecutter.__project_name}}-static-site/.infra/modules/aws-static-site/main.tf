@@ -1,7 +1,3 @@
-module "utilites" {
-  source = "git@github.com:adolya/terraform-tools.git"
-}
-
 resource "aws_s3_bucket" "s3_bucket" {
   bucket = var.bucket_name
 

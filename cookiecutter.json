@@ -6,10 +6,8 @@
   "AWS_SECRET_ACCESS_KEY": "Enter your root account key",
   "AWS_REGION": "us-east-1",
   "app_git_repo": "Enter output git repo",
-  "__rnd": "{% now 'utc', '%H%M%S' %}",
-  "__project_name": "{{ cookiecutter.app_name|lower|replace(' ', '-') }}-{{ cookiecutter.__rnd }}",
-  "__state_location": "static-stite-{{ cookiecutter.__rnd }}/terraform.tfstate",
+  "__project_name": "{{ cookiecutter.app_name|lower|replace(' ', '-') }}",
+  "__state_location": "static-site/terraform.tfstate",
   "__bucket_name": "terraform-{{ cookiecutter.account_number }}-{{ cookiecutter.__project_name }}",
-  "__dynamo_table_name": "terraform-{{ cookiecutter.__project_name }}-locks",
-  "_extensions": ["jinja2_time.TimeExtension"]
+  "__dynamo_table_name": "terraform-{{ cookiecutter.__project_name }}-locks"
 }
